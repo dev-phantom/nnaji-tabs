@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Input</title>
+</head>
+<body>
+    
+<div class="container-fluid main-body p-4">
+    <div class="dep-input">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <div class="h2 p-2 text-white">Last Depsoits</div>
+                <div class="row">
+                 <!--   <div class="col-6">
+                     <input type="text"  id="" class="input-dep-name" placeholder="Enter name">
+                       <input type="text" name="" id="idn2" class="input-dep-name" placeholder="Enter name">
+                       <input type="text" name="" id="idn3" class="input-dep-name" placeholder="Enter name">
+                       <input type="text" name="" id="idn4" class="input-dep-name" placeholder="Enter name">
+                       <input type="text" name="" id="idn5" class="input-dep-name" placeholder="Enter name">
+                       <input type="text" name="" id="idn6" class="input-dep-name" placeholder="Enter name">
+                       <input type="text" name="" id="idn7" class="input-dep-name" placeholder="Enter name">
+                       <input type="text" name="" id="idn8" class="input-dep-name" placeholder="Enter name">
+                    </div>-->
+
+
+                    <div class="col-6">
+                        <input type="text" name="" id="idn1" class="input-dep-name" placeholder="Enter name">
+                          <input type="text" name="" id="idn2" class="input-dep-name" placeholder="Enter name">
+                          <input type="text" name="" id="idn3" class="input-dep-name" placeholder="Enter name">
+                          <input type="text" name="" id="idn4" class="input-dep-name" placeholder="Enter name">
+                          <input type="text" name="" id="idn5" class="input-dep-name" placeholder="Enter name">
+                          <input type="text" name="" id="idn6" class="input-dep-name" placeholder="Enter name">
+                         
+                       </div>
+
+                    <div class="col-6">
+                        <input type="text" name="" id="ida1" class="input-dep-amount" placeholder="Enter amount">
+                        <input type="text" name="" id="ida2" class="input-dep-amount" placeholder="Enter amount">
+                        <input type="text" name="" id="ida3" class="input-dep-amount" placeholder="Enter amount">
+                        <input type="text" name="" id="ida4" class="input-dep-amount" placeholder="Enter amount">
+                        <input type="text" name="" id="ida5" class="input-dep-amount" placeholder="Enter amount">
+                        <input type="text" name="" id="ida6" class="input-dep-amount" placeholder="Enter amount">
+                       
+                    </div>
+
+                    <button id="btn1">Update</button>
+                    <button id="btn3" style="margin-left:30px;">Update</button>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
+                <div class="h2 p-2 text-white">Last Withdrawal</div>
+                <div class="row">
+                    <div class="col-6">
+                       <input type="text" name="" id="iwn1" class="input-with-name" placeholder="Enter name">
+                       <input type="text" name="" id="iwn2" class="input-with-name" placeholder="Enter name">
+                       <input type="text" name="" id="iwn3" class="input-with-name" placeholder="Enter name">
+                       <input type="text" name="" id="iwn4" class="input-with-name" placeholder="Enter name">
+                       <input type="text" name="" id="iwn5" class="input-with-name" placeholder="Enter name">
+                       <input type="text" name="" id="iwn6" class="input-with-name" placeholder="Enter name">
+                      
+                    </div>
+                    <div class="col-6">
+                        <input type="text" name="" id="iwa1" class="input-with-amount" placeholder="Enter amount">
+                        <input type="text" name="" id="iwa2" class="input-with-amount" placeholder="Enter amount">
+                        <input type="text" name="" id="iwa3" class="input-with-amount" placeholder="Enter amount">
+                        <input type="text" name="" id="iwa4" class="input-with-amount" placeholder="Enter amount">
+                        <input type="text" name="" id="iwa5" class="input-with-amount" placeholder="Enter amount">
+                        <input type="text" name="" id="iwa6" class="input-with-amount" placeholder="Enter amount">
+                       
+                    </div>
+
+                    <button id="btn2">Update</button>
+                    <button id="btn4" style="margin-left:30px;">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tables p-4 mt-5">
+        <div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6">
+    <div class="card">
+        <div class="card-header"><div class="text-center p-3 head">LAST DEPOSITS</div></div>
+      
+        <div class="row p-3">
+            <div class="col-3"><img src="img/usdt.png" alt=""></div>
+            <div class="col-5"><div class="dep-name p-2 text-white" id="dn1"></div></div>
+            <div class="col-4"><div class="dep-amt p-2" id="dw1"  style="width:100%; position:relative;"><span style="float:right;"></span></div></div>
+        </div>
+        <div class="hr"></div>
+
+
+        <div class="row p-3">
+            <div class="col-3"><img src="img/bit.png" alt=""></div>
+            <div class="col-5"><div class="dep-name p-2 text-white" id="dn2"></div></div>
+            <div class="col-4"><div class="dep-amt p-2" id="dw2"  style="width:100%; position:relative;"><span style="float:right;"></span></div></div>
+        </div>
+        <div class="hr"></div>
+
+        <div class="row p-3">
+            <div class="col-3"><img src="img/usdt.png" alt=""></div>
+            <div class="col-5"><div class="dep-name p-2 text-white" id="dn3"></div></div>
+            <div class="col-4"><div class="dep-amt p-2" id="dw3"  style="width:100%; position:relative;"><span style="float:right;"></span></div></div>
+        </div>
+        <div class="hr"></div>
+
+        <div class="row p-3">
+            <div class="col-3"><img src="img/lite.png" alt=""></div>
+            <div class="col-5"><div class="dep-name p-2 text-white" id="dn4"></div></div>
+            <div class="col-4"><div class="dep-amt p-2" id="dw4"  style="width:100%; position:relative;"><span style="float:right;"></span></div></div>
+        </div>
+        <div class="hr"></div>
+
+        <div class="row p-3">
+            <div class="col-3"><img src="img/eth.png" alt=""></div>
+            <div class="col-5"><div class="dep-name p-2 text-white" id="dn5"></div></div>
+            <div class="col-4"><div class="dep-amt p-2" id="dw5"  style="width:100%; position:relative;"><span style="float:right;"></span></div></div>
+        </div>
+        <div class="hr"></div>
+
+        <div class="row p-3">
+            <div class="col-3"><img src="img/bit.png" alt=""></div>
+            <div class="col-5"><div class="dep-name p-2 text-white" id="dn6"></div></div>
+            <div class="col-4"><div class="dep-amt p-2" id="dw6"  style="width:100%; position:relative;"><span style="float:right;"></span></div></div>
+        </div>
+        
+
+      
+<br>
+    </div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12">
+    <div class="card">
+        <div class="card-header"><div class="text-center p-3 head">LAST WITHDRAWAL</div></div>
+      
+        <div class="row p-3">
+            <div class="col-3"><img src="img/bit.png" alt=""></div>
+            <div class="col-5"><div class="with-name p-2 text-white" id="wn1"></div></div>
+            <div class="col-4"><div class="with-amt p-2" id="wa1" style="width:100%; position:relative;"><span style="float:right;"></span></div></div>
+        </div>
+        <div class="hr"></div>
+
+
+        <div class="row p-3">
+            <div class="col-3"><img src="img/usdt.png" alt=""></div>
+            <div class="col-5"><div class="with-name p-2 text-white" id="wn2"></div></div>
+            <div class="col-4"><div class="with-amt p-2" id="wa2" style="width:100%; position:relative;"><span style="float:right;"></span></div></div>
+        </div>
+        <div class="hr"></div>
+
+        <div class="row p-3">
+            <div class="col-3"><img src="img/bit.png" alt=""></div>
+            <div class="col-5"><div class="with-name p-2 text-white" id="wn3" ></div></div>
+            <div class="col-4"><div class="with-amt p-2" id="wa3" style="width:100%; position:relative;"><span style="float:right;"></span></div></div>
+        </div>
+        <div class="hr"></div>
+
+        <div class="row p-3">
+            <div class="col-3"><img src="img/lite.png" alt=""></div>
+            <div class="col-5"><div class="with-name p-2 text-white" id="wn4"></div></div>
+            <div class="col-4"><div class="with-amt p-2" id="wa4" style="width:100%; position:relative;"><span style="float:right;"></span></div></div>
+        </div>
+        <div class="hr"></div>
+
+        <div class="row p-3">
+            <div class="col-3"><img src="img/eth.png" alt=""></div>
+            <div class="col-5"><div class="with-name p-2 text-white" id="wn5"></div></div>
+            <div class="col-4"><div class="with-amt p-2" id="wa5" style="width:100%; position:relative;"><span style="float:right;"></span></div></div>
+        </div>
+        <div class="hr"></div>
+
+        <div class="row p-3">
+            <div class="col-3"><img src="img/bit.png" alt=""></div>
+            <div class="col-5"><div class="with-name p-2 text-white" id="wn6"></div></div>
+            <div class="col-4"><div class="with-amt p-2" id="wa6" style="width:100%; position:relative;"><span style="float:right;"></span></div></div>
+        </div>
+        
+
+    
+<br>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
